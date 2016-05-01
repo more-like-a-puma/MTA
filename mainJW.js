@@ -99,7 +99,7 @@ else if (firstLine !== endingLine) {
   }
 
   stopsNumberTotal = (stopsNumber1 + stopsNumber2 - 1);
-  stopsListTotal = (stopsList1.join(", ") + stopsList2.join(", "));
+  stopsListTotal = (stopsList1.join(", ") + ", " + stopsList2.join(", "));
 
   console.log("To travel to " + endStop + " from " + startStop + " along the " + startLine + " and " + endLine + " you must pass through " + stopsNumberTotal + " stops: " + stopsListTotal + " with an interchange at Union Square." );
 
